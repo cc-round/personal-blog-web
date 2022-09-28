@@ -1,0 +1,35 @@
+.manage {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: rgba($color: #ffffff, $alpha: 0.9);
+    margin: 0 auto;
+    border-radius: 10px;
+
+    .header {
+        width: 100%;
+        display: flex;
+        font-size: 18px;
+        background-color: #492D22;
+        border-radius: 5px;
+        line-height: 100%;
+        color: #D8C7B5;
+
+
+        .menu {
+            padding: 20px 20px;
+        }
+
+        .menu:hover {
+            cursor: pointer;
+            background-color: #D8C7B5;
+            color: #492D22;
+        }
+    }
+
+    .tableArea {
+        flex-grow: 1;
+        margin: 10px;
+    }
+}

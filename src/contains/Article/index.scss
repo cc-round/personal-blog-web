@@ -1,0 +1,110 @@
+.articleArea {
+    background-color: #ffffff;
+    width: 100%;
+    min-height: inherit;
+    overflow: hidden;
+
+    .article {
+        width: 90%;
+        min-height: inherit;
+        margin: 20px auto;
+
+        .title {
+            height: auto;
+            font-weight: bold;
+            font-size: 30px;
+            position: relative;
+            line-height: 50px;
+
+            .edit {
+                position: absolute;
+                left: auto;
+                right: 0;
+            }
+
+            .edit:hover {
+                color: black;
+            }
+        }
+
+        .message {
+            display: flex;
+            margin: 10px 0;
+            margin-bottom: 30px;
+            font-size: 14px;
+
+            .category {
+                width: 20%;
+            }
+
+            .time {
+                width: 70%;
+            }
+
+            .view {
+                width: 10%;
+            }
+
+            .icon {
+                position: relative;
+                top: 2px;
+                margin-right: 5px;
+            }
+        }
+
+        .contentArea {
+            min-height: inherit;
+            background-color: #ffffff;
+            width: auto;
+            margin-top: 15px;
+            font-size: 18px;
+        }
+
+        .markdown {
+            width: 100%;
+            white-space: pre-wrap;
+
+            h2,
+            h3,
+            h4,
+            p,
+            pre {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            h2,
+            h3,
+            h4 {
+                line-height: 70%;
+            }
+
+            h4 {
+                font-size: 18px;
+            }
+
+            code {
+                border: 1px #DFDFDF solid;
+            }
+
+            li {
+                list-style-type: disc;
+                line-height: 170%;
+                margin-bottom: 20px;
+
+                p {
+                    text-indent: 0;
+                }
+            }
+
+            ul {
+                white-space: normal;
+            }
+
+            p {
+                text-indent: 2em;
+            }
+        }
+    }
+
+}

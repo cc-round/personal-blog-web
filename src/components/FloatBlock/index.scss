@@ -1,0 +1,35 @@
+.floatBlock {
+    background-color: rgba($color: #ffffff, $alpha: 1);
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 10px;
+    position: fixed;
+    bottom: calc(10vh);
+
+    .floatIcon:hover {
+        background-color: #00A1D6;
+        cursor: pointer;
+    }
+
+    .divider {
+        border-top: #E7E7E7 1px solid;
+        width: 100%;
+    }
+
+
+    .floatIcon {
+        width: 100%;
+        padding: 7px 0;
+        font-size: 24px;
+    }
+
+
+}
+
+.nameItem:hover {
+    cursor: pointer;
+    background-color: #95C194;
+}

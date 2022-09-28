@@ -1,0 +1,33 @@
+.write {
+    margin: 15px 20px;
+    position: relative;
+    width: auto;
+
+    .button {
+        position: absolute;
+        right: 0px;
+        left: auto;
+        margin-right: 20px;
+    }
+
+    .and {
+        display: flex;
+    }
+
+    .input {
+        margin: 10px 20px;
+        margin-bottom: 0;
+        width: 80%;
+    }
+
+    .category {
+        width: 20%;
+    }
+
+    .title {
+        margin: 10px 20px;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+}

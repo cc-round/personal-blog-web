@@ -1,0 +1,86 @@
+.show {
+    width: 100%;
+    // background-image: url('../../static/background_paper.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
+    justify-content: space-between;
+
+    .newArt {
+        height: auto;
+        width: 100%;
+        position: relative;
+        margin-bottom: 20px;
+
+        .newTitle {
+            position: absolute;
+            top: 32%;
+            width: 45%;
+            left: 28%;
+        }
+
+        .newText {
+            position: absolute;
+            top: 48%;
+            left: 13%;
+        }
+    }
+
+    .tipText {
+        line-height: 150%;
+        font-size: 18px;
+        margin: 10px;
+        margin-top: 0;
+        text-indent: 2em;
+    }
+
+    .textPage {
+        line-height: 120%;
+        margin-top: 20px;
+        border-radius: 10px;
+        background-color: #EAFFFA;
+    }
+
+    .tipHeader {
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+        color: #95C194;
+    }
+
+    .newItem {
+        line-height: 120%;
+        margin-bottom: 10px;
+        width: 96%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        color: #000000;
+    }
+
+    .newItem:hover {
+        cursor: pointer;
+        color: #95C194;
+    }
+
+    .headerImg {
+        width: 100%;
+    }
+
+    .tipsText {
+        position: absolute;
+        height: 36%;
+        top: 0;
+        left: 20%;
+    }
+
+    .newLists {
+        width: 100%;
+    }
+}

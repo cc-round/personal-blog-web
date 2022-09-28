@@ -1,0 +1,33 @@
+.App {
+    background-color: #F2F2F2;
+
+    .home {
+        position: relative;
+        z-index: 1;
+    }
+
+    .top {
+        background-color: #E8E3DF;
+        height: calc(5vh);
+        width: 100%;
+    }
+
+
+    .area {
+        min-height: calc(88vh);
+        margin: calc(1vh) auto;
+        margin-bottom: 0;
+        display: flex;
+    }
+
+    .homeBack {
+        position: fixed;
+        filter: blur(10px);
+        width: 100%;
+    }
+
+}
+
+html {
+    overflow: auto !important;
+}

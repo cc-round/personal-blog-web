@@ -1,0 +1,85 @@
+.headTop {
+    position: relative;
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+
+    .logo {
+        height: 100%;
+    }
+
+    .icon {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+    }
+
+    .search {
+        width: 230px;
+        position: absolute;
+        display: flex;
+        top: 50%;
+        background-color: white;
+        border-radius: 3px;
+        left: 50%;
+        right: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    .button {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 34px;
+        border-radius: 15px;
+        transform: translateY(-50%);
+        background-color: #95C194;
+        color: #E8E3DF;
+    }
+
+    .welcome {
+        position: absolute;
+        top: 50%;
+        right: 75px;
+        height: 100%;
+        line-height: calc(5vh);
+        transform: translateY(-50%);
+
+        span {
+            color: #95C194;
+        }
+
+        span:hover {
+            cursor: pointer;
+        }
+    }
+
+}
+
+.loginWindow {
+    height: 40%;
+    width: 30%;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+    .input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 50%;
+        margin-top: 20%;
+
+        .loginButton {
+            display: flex;
+            width: 93%;
+            justify-content: space-evenly;
+        }
+    }
+}

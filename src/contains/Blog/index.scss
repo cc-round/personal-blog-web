@@ -1,0 +1,31 @@
+.blog {
+    min-height: inherit;
+    display: flex;
+    width: 100%;
+
+    .leftbar,
+    .rightbar {
+        width: 15%;
+    }
+
+
+    .main {
+        display: flex;
+        width: 70%;
+        min-height: inherit;
+
+        .content {
+            background-color: rgba($color: #ffffff, $alpha: 0.8);
+            width: 80%;
+            border-radius: 5px;
+            min-height: inherit;
+        }
+
+        .siderbar {
+            width: 20%;
+            background-color: rgba($color: #F8EDB4, $alpha: 0);
+            margin-left: 10px;
+            border-radius: 5px;
+        }
+    }
+}

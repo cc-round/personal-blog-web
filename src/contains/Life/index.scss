@@ -1,0 +1,13 @@
+.life {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    .noContent {
+        position: absolute;
+        left: 50%;
+        top: 30%;
+        transform: translateX(-50%);
+        width: 50%;
+    }
+}

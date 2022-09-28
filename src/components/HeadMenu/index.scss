@@ -1,0 +1,27 @@
+$height: 5vh;
+
+.headMenu {
+    height: $height;
+    background-color: #80D1C8;
+    color: #F8F5D6;
+
+    .menu {
+        display: flex;
+        height: 100%;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .menuItem {
+        line-height: $height;
+        width: 8%;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .menuItem:hover {
+        background-color: #F8F5D6;
+        color: #80D1C8;
+        cursor: pointer;
+    }
+}
